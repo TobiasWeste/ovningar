@@ -1,0 +1,40 @@
+html
+{
+  position: relative;
+  min-height: 100%
+}
+body
+{
+  background: #2c3e50;
+   transition: background ease .2s;
+}
+.fa
+{
+width: 100px;
+ height: 100px;
+ text-align: center;
+ line-height: 100px;
+ color: #2c3e50;
+ padding: 10px;
+ font-size: 75px;
+ background: #fff;
+ border-radius: 50%;
+ border: 2px solid black;
+ text-shadow: 2px black;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ cursor: pointer;
+}
+.on
+{
+  background: #d35400;
+}
+.off
+{
+  background: #2c3e50;
+}
+div{
+  cursor: pointer;
+}
