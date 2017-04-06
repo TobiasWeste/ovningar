@@ -1,0 +1,90 @@
+*
+{
+  box-sizing: border-box;
+}
+  body {
+  background: #3498db; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-90deg, #1abc9c, #3498db); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, #1abc9c, #3498db); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, #1abc9c, #3498db); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, #1abc9c, #3498db); /* Standard syntax */
+ }
+div
+{
+  border-radius: 10px;
+  margin-top: 15px;
+}
+div.wrapper{
+  margin: 0 auto;
+  width: 800px;
+}
+ .profile
+{
+  padding: 20px;
+  width: 20%;
+  min-height: 150px;
+  float: left;
+  background-color: #fff;
+}
+.profile img
+{
+  border: 4px solid #000;
+  display: block;
+  height: auto;
+  padding: 20px;
+  width: 100%;
+  background-color: #1abc9c;
+  border-radius: 50%;
+}
+.description
+{
+  padding: 10px;
+  float: left;
+  width: 70%;
+  min-height: 150px;
+  margin-left: 15px;
+  background-color: #fff;
+
+}
+.loremIpsum
+{
+  padding: 20px;
+  float: left;
+  width: 735px;
+  min-height: 150px;
+  background-color: #fff;
+  margin-top: 15px;
+}
+.Heading
+{
+  float: left;
+  width: 360px;
+  min-height: 200px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.Heading img
+{
+  display: block;
+  height: auto;
+  padding: 10px;
+  width: 100%;
+}
+.Heading2
+{
+  float: left;
+  width: 360px;
+  min-height: 200px;
+  background-color: #fff;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.Heading2 img
+{
+  display: block;
+  height: auto;
+  padding: 10px;
+  width: 100%;
+}
